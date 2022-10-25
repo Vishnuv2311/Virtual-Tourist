@@ -10,7 +10,7 @@ import CoreLocation
 
 class FlickrAPI{
     
-    static let MAX_PHOTOS = 50
+    static let MAX_PHOTOS = 30
     
     struct ApiInfo {
         
@@ -40,6 +40,7 @@ class FlickrAPI{
             items.append(URLQueryItem(name: "api_key", value: ApiInfo.API_KEY))
             items.append(URLQueryItem(name: "format", value: "json"))
             items.append(URLQueryItem(name: "nojsoncallback", value: "1"))
+            items.append(URLQueryItem(name: "per_page", value: "\(MAX_PHOTOS)"))
             
             switch self{
             case .searchGeo(let lat,let lon):
