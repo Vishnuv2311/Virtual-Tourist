@@ -17,7 +17,6 @@
 		272F0AD82902AF9E004A933E /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272F0AD72902AF9E004A933E /* MapViewController.swift */; };
 		27A995AB2903F256003F7A09 /* PinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A995AA2903F256003F7A09 /* PinViewController.swift */; };
 		27A995AD2903F70E003F7A09 /* PhotoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A995AC2903F70E003F7A09 /* PhotoDetailViewController.swift */; };
-		27A995B12903F75C003F7A09 /* AppInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A995B02903F75B003F7A09 /* AppInfoViewController.swift */; };
 		27A995B42903F793003F7A09 /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A995B32903F793003F7A09 /* PhotoCollectionViewCell.swift */; };
 		27A995B62903F7BD003F7A09 /* Pin+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A995B52903F7BD003F7A09 /* Pin+Ext.swift */; };
 		27A995B92903F809003F7A09 /* FlickerDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 27A995B72903F809003F7A09 /* FlickerDataModel.xcdatamodeld */; };
@@ -39,7 +38,6 @@
 		272F0AD72902AF9E004A933E /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		27A995AA2903F256003F7A09 /* PinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinViewController.swift; sourceTree = "<group>"; };
 		27A995AC2903F70E003F7A09 /* PhotoDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetailViewController.swift; sourceTree = "<group>"; };
-		27A995B02903F75B003F7A09 /* AppInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInfoViewController.swift; sourceTree = "<group>"; };
 		27A995B32903F793003F7A09 /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
 		27A995B52903F7BD003F7A09 /* Pin+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Pin+Ext.swift"; sourceTree = "<group>"; };
 		27A995B82903F809003F7A09 /* FlickerDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FlickerDataModel.xcdatamodel; sourceTree = "<group>"; };
@@ -107,7 +105,6 @@
 				272F0AD72902AF9E004A933E /* MapViewController.swift */,
 				27A995AA2903F256003F7A09 /* PinViewController.swift */,
 				27A995AC2903F70E003F7A09 /* PhotoDetailViewController.swift */,
-				27A995B02903F75B003F7A09 /* AppInfoViewController.swift */,
 				27A995BA29040EBC003F7A09 /* UIViewController+Ext.swift */,
 			);
 			path = Controller;
@@ -222,7 +219,6 @@
 				272F0AC129010239004A933E /* SceneDelegate.swift in Sources */,
 				27A995AD2903F70E003F7A09 /* PhotoDetailViewController.swift in Sources */,
 				27A995B62903F7BD003F7A09 /* Pin+Ext.swift in Sources */,
-				27A995B12903F75C003F7A09 /* AppInfoViewController.swift in Sources */,
 				27A995BB29040EBC003F7A09 /* UIViewController+Ext.swift in Sources */,
 				272F0AD3290103F0004A933E /* FlickrAPI.swift in Sources */,
 			);
