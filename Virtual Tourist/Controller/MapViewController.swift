@@ -69,6 +69,7 @@ extension MapViewController{
         let pinView:MKMarkerAnnotationView!
         
         if let pinView = mapView.dequeueReusableAnnotationView(withIdentifier: reUseId) as? MKMarkerAnnotationView{
+            pinView.annotation = annotation
             return pinView
         } else {
             pinView = MKMarkerAnnotationView(annotation: annotation, reuseIdentifier: reUseId)
