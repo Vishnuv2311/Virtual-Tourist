@@ -26,7 +26,7 @@ class FlickrAPI{
     
     enum Endpooints{
         
-        case searchGeo(lat: Double, lon: Double)
+        case searchGeo(lat: Double, lon: Double,page:Int)
         
         var url:URL?{
             
@@ -43,9 +43,10 @@ class FlickrAPI{
             items.append(URLQueryItem(name: "per_page", value: "\(MAX_PHOTOS)"))
             
             switch self{
-            case .searchGeo(let lat,let lon):
+            case .searchGeo(let lat,let lon,let page):
                 items.append(URLQueryItem(name: "lat", value: "\(lat)"))
                 items.append(URLQueryItem(name: "lon", value: "\(lon)"))
+                items.append(URLQueryItem(name: "page", value: "\(page)"))
                 break
             }
             
@@ -97,9 +98,9 @@ class FlickrAPI{
 
 extension FlickrAPI{
     
-    class func geoSearchFlickr(latitude:Double,longitude:Double,completion: @escaping ([[String:String]]?,LocalizedError?) -> Void){
+    class func geoSearchFlickr(latitude:Double,longitude:Double,page:Int,completion: @escaping ([[String:String]]?,LocalizedError?) -> Void){
         
-        guard let url = Endpooints.searchGeo(lat: latitude, lon: longitude).url else {
+        guard let url = Endpooints.searchGeo(lat: latitude, lon: longitude,page: page).url else {
             completion(nil, FlickerError.urlError)
             return
         }

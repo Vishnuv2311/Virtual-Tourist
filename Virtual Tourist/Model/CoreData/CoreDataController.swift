@@ -123,7 +123,7 @@ extension CoreDataController {
         }
 
         
-        FlickrAPI.geoSearchFlickr(latitude: pin.latitude, longitude: pin.longitude) { searchResults, error in
+        FlickrAPI.geoSearchFlickr(latitude: pin.latitude, longitude: pin.longitude,page:Int.random(in: 1...10)) { searchResults, error in
             
             if let searchResults = searchResults {
                 
