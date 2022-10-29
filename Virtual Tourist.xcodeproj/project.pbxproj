@@ -19,8 +19,8 @@
 		27A995AD2903F70E003F7A09 /* PhotoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A995AC2903F70E003F7A09 /* PhotoDetailViewController.swift */; };
 		27A995B42903F793003F7A09 /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A995B32903F793003F7A09 /* PhotoCollectionViewCell.swift */; };
 		27A995B62903F7BD003F7A09 /* Pin+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A995B52903F7BD003F7A09 /* Pin+Ext.swift */; };
-		27A995B92903F809003F7A09 /* FlickerDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 27A995B72903F809003F7A09 /* FlickerDataModel.xcdatamodeld */; };
 		27A995BB29040EBC003F7A09 /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A995BA29040EBC003F7A09 /* UIViewController+Ext.swift */; };
+		27BC7547290CE055004A072F /* FlickrDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 27BC7545290CE055004A072F /* FlickrDataModel.xcdatamodeld */; };
 		27C7F89C29030C6B006FEC7E /* CoreDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C7F89B29030C6B006FEC7E /* CoreDataController.swift */; };
 		27C7F89E29030D05006FEC7E /* PinAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C7F89D29030D05006FEC7E /* PinAnnotation.swift */; };
 /* End PBXBuildFile section */
@@ -40,8 +40,8 @@
 		27A995AC2903F70E003F7A09 /* PhotoDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetailViewController.swift; sourceTree = "<group>"; };
 		27A995B32903F793003F7A09 /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
 		27A995B52903F7BD003F7A09 /* Pin+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Pin+Ext.swift"; sourceTree = "<group>"; };
-		27A995B82903F809003F7A09 /* FlickerDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FlickerDataModel.xcdatamodel; sourceTree = "<group>"; };
 		27A995BA29040EBC003F7A09 /* UIViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
+		27BC7546290CE055004A072F /* FlickrDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FlickrDataModel.xcdatamodel; sourceTree = "<group>"; };
 		27C7F89B29030C6B006FEC7E /* CoreDataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataController.swift; sourceTree = "<group>"; };
 		27C7F89D29030D05006FEC7E /* PinAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinAnnotation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -132,7 +132,7 @@
 			children = (
 				27C7F89B29030C6B006FEC7E /* CoreDataController.swift */,
 				27A995B52903F7BD003F7A09 /* Pin+Ext.swift */,
-				27A995B72903F809003F7A09 /* FlickerDataModel.xcdatamodeld */,
+				27BC7545290CE055004A072F /* FlickrDataModel.xcdatamodeld */,
 			);
 			path = CoreData;
 			sourceTree = "<group>";
@@ -211,11 +211,11 @@
 				27C7F89E29030D05006FEC7E /* PinAnnotation.swift in Sources */,
 				27A995B42903F793003F7A09 /* PhotoCollectionViewCell.swift in Sources */,
 				27A995AB2903F256003F7A09 /* PinViewController.swift in Sources */,
-				27A995B92903F809003F7A09 /* FlickerDataModel.xcdatamodeld in Sources */,
 				272F0AD82902AF9E004A933E /* MapViewController.swift in Sources */,
 				272F0AD629010F03004A933E /* SearchResponse.swift in Sources */,
 				27C7F89C29030C6B006FEC7E /* CoreDataController.swift in Sources */,
 				272F0ABF29010239004A933E /* AppDelegate.swift in Sources */,
+				27BC7547290CE055004A072F /* FlickrDataModel.xcdatamodeld in Sources */,
 				272F0AC129010239004A933E /* SceneDelegate.swift in Sources */,
 				27A995AD2903F70E003F7A09 /* PhotoDetailViewController.swift in Sources */,
 				27A995B62903F7BD003F7A09 /* Pin+Ext.swift in Sources */,
@@ -438,13 +438,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		27A995B72903F809003F7A09 /* FlickerDataModel.xcdatamodeld */ = {
+		27BC7545290CE055004A072F /* FlickrDataModel.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				27A995B82903F809003F7A09 /* FlickerDataModel.xcdatamodel */,
+				27BC7546290CE055004A072F /* FlickrDataModel.xcdatamodel */,
 			);
-			currentVersion = 27A995B82903F809003F7A09 /* FlickerDataModel.xcdatamodel */;
-			path = FlickerDataModel.xcdatamodeld;
+			currentVersion = 27BC7546290CE055004A072F /* FlickrDataModel.xcdatamodel */;
+			path = FlickrDataModel.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

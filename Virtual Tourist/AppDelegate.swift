@@ -16,7 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
        
-        dataController = CoreDataController(name: "FlickerDataModel")
+        dataController = CoreDataController(name: "FlickrDataModel")
         dataController.load()
         
         return true
