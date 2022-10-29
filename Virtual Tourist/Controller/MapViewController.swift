@@ -178,6 +178,12 @@ extension MapViewController{
                     self.showOKAlert(error:error)
                 }
             }
+            
+            self.dataController.reloadPin(pin: pin) { error in
+                if let error = error{
+                    self.showOKAlert(error: error)
+                }
+            }
         }
     }
     
